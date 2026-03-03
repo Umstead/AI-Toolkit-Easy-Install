@@ -255,6 +255,11 @@ echo set PYENV_ROOT=>>%bat_file_name%
 echo set PYENV_VERSION=>>%bat_file_name%
 echo.>>%bat_file_name%
 
+echo set "HF_HOME=%~dp0HuggingFace">>%bat_file_name%
+echo.>>%bat_file_name%
+echo echo %yellow%Hugging Face Home:%reset% %%HF_HOME%%%%>>%bat_file_name%
+echo echo.>>%bat_file_name%
+
 echo set warning=[33m>>%bat_file_name%
 echo set     red=[91m>>%bat_file_name%
 echo set   green=[92m>>%bat_file_name%
